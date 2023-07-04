@@ -4,7 +4,7 @@ from tkinter import messagebox
 import mysql.connector as c
 import pandas.io.sql
 
-con = c.connect(host='localhost', user='root', password='Pritam@12345', database="extra_credit")
+con = c.connect(host='localhost', user='root', password='************', database="extra_credit")
 cursor = con.cursor(buffered=True)
 cursor.execute("SHOW TABLES")
 tables = cursor.fetchall()
